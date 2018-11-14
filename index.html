@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Links CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.css" />
 </head>
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg fixed-top navbar-fudeso" id="mainNav">
             <div class="container">
-              <a class="navbar-brand js-scroll-trigger" href="#page-top"><img  class="d-inline-block align-top logo" src="assets/img/logos/logofudeso2018.png" alt="FUDESO" srcset=""></a>
+              <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="d-inline-block align-top logo" src="assets/img/logos/logofudeso2018.png" alt="FUDESO" srcset=""></a>
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -53,10 +54,10 @@
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link btn btn-primary" href="#">Voluntariado</a>
+                        <a class="nav-link btn btn-secondary" href="#">¡Súmate!</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="#">Contacto</a>
+                        <a class="nav-link btn btn-primary" href="#">Contacto</a>
                     </li>
                 </ul>
               </div>
@@ -71,29 +72,14 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
-                        <!-- Slide One - Set the background image for this slide in the line below -->
                         <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/ihFWKicceNk/1920x1080')">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4 animated">First Slide</h2>
-                            <p class="lead">This is a description for the first slide.</p>
                         </div>
-                        </div>
-                        <!-- Slide Two - Set the background image for this slide in the line below -->
                         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/4rgvTDqoBI0/1920x1080')">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4 animated">Second Slide</h2>
-                            <p class="lead">This is a description for the second slide.</p>
                         </div>
-                        </div>
-                        <!-- Slide Three - Set the background image for this slide in the line below -->
                         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/KdeqA3aTnBY/1920x1080')">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h2 class="display-4 animated">Third Slide</h2>
-                                <p class="lead">This is a description for the third slide.</p>
-                            </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Anterior</span>
                         </a>
@@ -106,27 +92,71 @@
         </section>
         <section id="about" class="bg-light row">
             <div class="col-12">
-                <h2 class="display-4 text-center animated">Sobre Nosotros</h2>
+                <h2 class="display-4 text-center animated text-primary">Sobre Nosotros</h2>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 text-center">
+            <div class="col-12 col-md-12 col-lg-6 text-center lead-fudeso">
                 <br>
-                <p class="lead text-justify">Somos una organización sin fines de lucro presente en Chile, trabajamos para construir una Sociedad plena e íntegramente desarrollada, donde se consideren todas las dimensiones del ser humano y su entorno.</p>
+                <p class="text-justify">La <b>Fundación para el Desarrollo Social</b> es una organización sin fines de lucro presente en Chile, trabajamos para construir una Sociedad plena e íntegramente desarrollada, donde se consideren todas las dimensiones del ser humano y su entorno.</p>
                 <br>
-                <p class="lead text-justify">Este objetivo se busca por medio del trabajo de profesionales, voluntarios y beneficiarios; quienes actúan en colaboración y coordinación con los distintos sectores de la sociedad para desarrollar programas, proyectos y actividades de carácter social y científico. Además, nuestras iniciativas están alineadas hasta el 2030 con los Objetivos de Desarrollo Sostenible y se caracterizan por ser innovadoras, escalables y concretas.</p>
+                <p class="text-justify">Este objetivo se busca por medio del trabajo de profesionales, voluntarios y beneficiarios; quienes actúan en colaboración y coordinación con los distintos sectores de la sociedad para desarrollar programas, proyectos y actividades de carácter social y científico. Además, nuestras iniciativas están alineadas hasta el 2030 con los <i>Objetivos de Desarrollo Sostenible (ODS)</i> y se caracterizan por ser innovadoras, escalables y concretas.</p>
                 <br>
                 <button class="btn btn-primary btn-fudeso">NUESTRO EQUIPO</button>
                 <button class="btn btn-primary btn-fudeso">MODELO DE TRABAJO</button>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 text-center">
+            <div class="col-12 col-md-12 col-lg-6 text-center">
                 <img class="img-fudeso img-rounded" src="./assets/img/iug-6.jpg" alt="FUDESO">
             </div>
         </section>
+        <section id="ods-numbers" class="row bg-blue">
+            <div class="col-12 text-white text-center">
+                <h2 class="display-4 animated">¿Qué son los Objetivos de Desarrollo Sostenible(ODS)?</h2>
+                <br>
+                <p class="lead-fudeso">Los Objetivos de Desarrollo Sostenible son la base de la Agenda 2030, un plan de acción firmado por 193 países miembros de la Organización de Naciones Unidas (ONU) que promueve el Desarrollo Sostenible Mundial en favor de las personas, el planeta y la prosperidad. </p> 
+                <p class="lead">El acuerdo contiene 17 objetivos que incluyen 169 metas que buscan fortalecer la paz universal de aquí al año 2030. En Chile, la agenda está liderada ante la ONU por el Consejo de implementación de la Agenda 2030 del Estado, el cual mantiene Comisiones y Grupos de Trabajo donde de la Academia, la Sociedad Civil y el Mundo Privado son actores relevantes en las actividades, generando vinculos con miras a conseguir los Objetivos de Desarrollo Sostenible en nuestro país.</p> 
+                <br>
+                <p>
+                <a title="ODS 1: Fin de la Pobreza" href="#">
+                    <img src="./assets/img/ODS redondos/1.png" alt="ODS 1: Fin de la Pobreza"/></a>
+                <a title="ODS 2: Hambre Cero" href="#">
+                    <img src="./assets/img/ODS redondos/2.png" alt="ODS 2: Hambre Cero"/></a>
+                <a title="ODS 3: Salud y Bienestar" href="#">
+                    <img src="./assets/img/ODS redondos/3.png" alt="ODS 3: Salud y Bienestar"/></a>
+                <a title="ODS 4: Educación de Calidad" href="#">
+                    <img src="./assets/img/ODS redondos/4.png" alt="ODS 4: Educación de Calidad"/></a>
+                <a title="ODS 5: Equidad de Género" href="#">
+                    <img src="./assets/img/ODS redondos/5.png" alt="ODS 5: Equidad de Género"/></a>
+                <a title="ODS 6: Agua Limpia y Saneamiento" href="#">
+                    <img src="./assets/img/ODS redondos/6.png" alt="ODS 6: Agua Limpia y Saneamiento"/></a>
+                <a title="ODS 7: energía asequible y No contaminante" href="#">
+                    <img src="./assets/img/ODS redondos/7.png" alt="ODS 7: energía asequible y No contaminante"/></a>
+                <a title="ODS 8: Trabajo Decente y Crecimiento Económico" href="#">
+                    <img src="./assets/img/ODS redondos/8.png" alt="ODS 8: Trabajo Decente y Crecimiento Económico"/></a>
+                <a title="ODS 9: Industria, Innovación e Infraestructura" href="#">
+                    <img src="./assets/img/ODS redondos/9.png" alt="ODS 9: Industria, Innovación e Infraestructura"/></a>
+                <a title="ODS 10: Reducción de las Desigualdades" href="#">
+                    <img src="./assets/img/ODS redondos/10.png" alt="ODS 10: Reducción de las Desigualdades"/></a>
+                <a title="ODS 11: Ciudades y Comunidades Sostenibles" href="#">
+                    <img src="./assets/img/ODS redondos/11.png" alt="ODS 11: Ciudades y Comunidades Sostenibles"/></a>
+                <a title="ODS 12: Producción y Consumo Responsable" href="#">
+                    <img src="./assets/img/ODS redondos/12.png" alt="ODS 12: Producción y Consumo Responsable"/></a>
+                <a title="ODS 13: acción por el Clima" href="#">
+                    <img src="./assets/img/ODS redondos/13.png" alt="ODS 13: acción por el Clima"/></a>
+                <a title="ODS 14: Vida Submarina" href="#">
+                    <img src="./assets/img/ODS redondos/14.png" alt="ODS 14: Vida Submarina"/></a>
+                <a title="ODS 15: Vida de Ecosistemas Terrestres" href="#">
+                    <img src="./assets/img/ODS redondos/15.png" alt="ODS 15: Vida de Ecosistemas Terrestres"/></a>
+                <a title="ODS 16: Paz, Justicia e Instituciones Sólidas" href="#">
+                    <img src="./assets/img/ODS redondos/16.png" alt="ODS 16: Paz, Justicia e Instituciones Sólidas"/></a>
+                <a title="ODS 17: Alianzas para lograr los Objetivos" href="#">
+                    <img src="./assets/img/ODS redondos/17.png" alt="ODS 17: Alianzas para lograr los Objetivos"/></a>
+                </p>
+        </section>
         <section id="projects" class="row text-center">
             <div class="col-12">
-                <h2 class="display-4 animated">Nuestros Proyectos</h2>
+                <h2 class="display-4 animated text-primary">Nuestros Proyectos</h2>
                 <br>
-                <p class="lead">Realizamos proyectos, investigación, incidencia, difusión, consultoría, asesoría y formación, para desarrollar habilidades y herramientas, en individuos, colectivos y organizaciones, para la promoción de un desarrollo pleno e íntegro. Todos los proyectos de FUDESO hasta el año 2030, están alineados con uno o más Objetivos de Desarrollo Sostenible (ODS).</p>
-                <p class="lead">Estos son algunos de nuestros proyectos:</p>
+                <p class="lead-fudeso">Realizamos proyectos, investigación, incidencia, difusión, consultoría, asesoría y formación, para desarrollar habilidades y herramientas, en individuos, colectivos y organizaciones, para la promoción de un desarrollo pleno e íntegro. Todos los proyectos de FUDESO hasta el año 2030, están alineados con uno o más <i>Objetivos de Desarrollo Sostenible (ODS)</i>.</p>
+                <p class="lead-fudeso">Estos son algunos de nuestros proyectos:</p>
                 <br>
                 <div class="row">
                     <div class="col-6 col-md-4 col-lg-2">
@@ -162,12 +192,23 @@
                 </div>
             </div>
         </section>
-        <section id="ods-numbers">
-
-        </section>
-        <footer>
-            <div class="ods">
-
+        <footer class="row bg  text-white">
+            <div class="col-12 col-md-4 col-lg-4">
+                <h5>Fundación para el Desarrollo Social</h5>
+                <p>
+                    <i class="fa fa-1x fa-home"></i> Huérfanos #1052, Oficina 702, Santiago<br>
+                    <i class="fa fa-1x fa-phone" aria-hidden="true"></i> +569 5098 6670<br>
+                    <i class="fa fa-1x fa-envelope-o"></i> contacto@fudeso.cl
+                </p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 text-center">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 text-center">
+                <h5>Síguenos en Redes Sociales</h5>
+                <br>
+                <a href="https://www.facebook.com/Fundaci%C3%B3n-para-el-Desarrollo-Social-Fudeso-1885295008422409/"><i class="fa fa-2x fa-facebook-f"></i></a>
+                <a href="https://twitter.com/FUDESOCHILE?lang=es"><i class="fa fa-2x fa-twitter"></i></a>
+                <a href="https://www.instagram.com/fudeso.chile/?hl=es"><i class="fa fa-2x fa-instagram"></i></a>
             </div>
         </footer>
     </div>
