@@ -1,7 +1,6 @@
 {
   "name": "fudeso",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorayasm/fudeso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sorayasm/fudeso/issues"
+  },
+  "homepage": "https://github.com/sorayasm/fudeso#readme",
+  "description": ""
 }
