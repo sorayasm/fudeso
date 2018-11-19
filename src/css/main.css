@@ -29,6 +29,13 @@ html, body {
   margin-bottom: 20px;
 }
 
+.titles {
+  margin-top: 120px;
+  height: 100%;
+  min-height: 100vh;
+  padding: 5em 4em;
+}
+
 /* Navbar */
 .btn {
   margin: 0.2rem;
