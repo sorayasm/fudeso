@@ -149,6 +149,14 @@ html, body {
   padding: 10em 5em 5em 5em;
 }
 
+.line {
+  color: black;
+}
+
+.line:hover {
+  text-decoration: none;
+}
+
 /* ODS Numbers */
 #ods {
   height: 100%;
