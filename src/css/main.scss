@@ -47,6 +47,22 @@ html, body {
   margin: 0 auto;
 }
 
+.header-fudeso{
+  width: 90%;
+  min-width: 200px;
+  max-width: 850px;
+  margin: 1em auto;
+  border-radius: 4px;
+}
+
+.thumbnail-fudeso {
+  width: 90%;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 0.5em;
+  border-radius: 4px;
+}
+
 /* Navbar */
 .btn {
   margin: 0.2rem;
