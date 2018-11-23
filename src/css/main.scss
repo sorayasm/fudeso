@@ -11,6 +11,7 @@ $theme-colors: (
 
 html, body {
   scroll-behavior: smooth;
+  font-family: 'Roboto';
 }
 
 .col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1, .container-fluid .row {
@@ -18,9 +19,8 @@ html, body {
   padding-right: 0px !important;
 }
 
-
 .btn-fudeso {
-  width: 16em;
+  width: 12em;
 }
 
 .lead-fudeso {
@@ -40,8 +40,8 @@ html, body {
 }
 
 .p-fudeso {
-  padding-left: 2em !important;
-  padding-right: 2em !important;
+  padding-left: 3.5em !important;
+  padding-right: 3.5em !important;
   text-align: justify;
   font-size: 1.2em;
   margin: 0 auto;
@@ -62,19 +62,22 @@ html, body {
   margin: 0.5em;
   border-radius: 4px;
 }
+.row {
+  margin: 0 !important;
+}
 
 /* Navbar */
 .btn {
   margin: 0.2rem;
   color: #f8f9fa !important;
-  font-weight: 700 !important;
-  text-transform: uppercase;
+  font-size: 1.25rem !important;
+  font-weight: 300;
 }
 
 .nav-link {
   margin: 0.2rem;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .bg {
@@ -89,6 +92,7 @@ html, body {
 .dropdown-item{
   color: #f8f9fa !important;
   background-color: #222222 !important;
+  font-size: 1.25rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -96,7 +100,8 @@ html, body {
   background-color: #f8f9fa !important;
 }
 .dropdown-item.active, .dropdown-item:active {
-  background-color: #bb0505 !important;
+  background-color: #F4511E !important;
+  color: #f8f9fa !important;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d !important;
@@ -104,8 +109,10 @@ html, body {
 
 /* Hero*/
 .carousel-item {
-  height: 85vh;
-  min-height: 350px;
+  display: block;
+  min-height: 80vh;
+  height: 100%;
+  width:100%;
   margin-top: 120px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -118,7 +125,7 @@ html, body {
 #about {
   height: 100%;
   min-height: 100vh;
-  padding: 4em;
+  padding: 4em 0;
 }
 
 .img-fudeso{
@@ -154,11 +161,15 @@ html, body {
 #donate {
   height: 100%;
   min-height: 100vh;
-  padding: 10em 5em 5em 5em;
+  padding: 5em 3em;
+}
+
+#donate i{
+  margin: 0.5em;
 }
 
 .line{
- color: black;
+padding: 3em 7em 0em 7em;
 }
 
 .line:hover{
@@ -190,6 +201,22 @@ footer {
 
 footer i{
   margin: 0.5rem;
+}
+
+footer p {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+footer h5 {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+  text-align: left;
+  font-size: 1.3em;
+  margin: 0 auto;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
