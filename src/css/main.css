@@ -215,6 +215,41 @@ footer h5 {
   margin: 1em auto;
 }
 
+/* FAQ */
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+}
+
+.faq a {
+  color: #000000;
+}
+
+.faq li {
+  list-style: none;
+}
+
+.faq ul {
+  padding-left: 0;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 15%;
+  left: 85%;
+  max-width: 40px;
+  width: 100%;
+  border-color: none;
+  background-color: #F4511E;
+  padding: 0.5px;
+  border-radius: 4px;
+}
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
