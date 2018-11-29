@@ -367,9 +367,12 @@ footer h5 {
 }
 
 /* Volunteer */
-.col-centered{
-  float: none;
-  margin: 0 auto;
+#volunteer-page .card {
+  border: none;
+}
+
+#volunteer-page .card-body {
+  border-radius: 4px;
 }
 
 .bg-gradient {
@@ -427,7 +430,7 @@ footer h5 {
 }
 
 .job-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .job-card:hover .deco-layer--1 {
