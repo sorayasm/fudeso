@@ -6,8 +6,7 @@ $theme-colors: (
   "danger": #FFB300,
   "green": #00cc33,
   "info": #039be5,
-  "blue": #1c4587,
-  "light-sec": #f1f1f1
+  "blue": #1c4587
 );
 
 html, body {
@@ -62,8 +61,7 @@ html, body {
 }
 
 .logo-projects{
-  max-width: 80px;
-  width: 100%;
+  width: 100px;
   margin: 0 auto;
 }
 
@@ -77,6 +75,11 @@ html, body {
 
 ul li {
   margin-bottom:1rem;
+}
+
+.form-fudeso {
+  margin: 0.5em;
+  border-radius: 4px;
 }
 
 /* Navbar */
@@ -150,9 +153,7 @@ ul li {
 }
 
 .img-logo {
-  width: 70%;
-  min-width: 100px;
-  max-width: 150px;
+  width: 120px;
   margin: 1em auto;
 }
 

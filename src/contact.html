@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-fudeso" id="mainNav">
             <div class="container">
               <a class="navbar-brand js-scroll-trigger" href="../index.html"><img class="d-inline-block align-top logo" src="../assets/img/logos/logofudeso2018.png" alt="FUDESO" srcset=""></a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-p="Toggle navigation">
                 Menu
                 <i class="fa fa-bars"></i>
               </button>
@@ -29,7 +29,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Nosotros
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu" aria-pledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="about.html">Modelo de Trabajo</a>
                             <a class="dropdown-item" href="team.html">Equipo</a>
                             <a class="dropdown-item" href="faq.html">Preguntas Frecuentes</a>
@@ -39,7 +39,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Proyectos
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu" aria-pledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="aurora-social.html">Programa Aurora Social</a>
                                 <a class="dropdown-item" href="curso-ods.html">Curso de Objetivos para el Desarrollo Sostenible</a>
                                 <a class="dropdown-item" href="comunicacion-desarrollo.html">Curso de Comunicación para el Desarrollo</a>
@@ -67,8 +67,28 @@
         </nav>
         <!-- header -->
         <section class="row titles">
-            <div class="col-md-12">
-                <h2 class="display-4 text-center animated text-primary">Contacto</h2>
+            <div class="col-12 text-center">
+                <p class="display-4">Contacto</p>
+                <p class="lead">Si quieres unirte a nuestra comunidad, hacer una donación o apoyar un proyecto. ¡Escríbenos! Nos pondremos en contacto lo antes posible.</p>
+                <hr>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 form-group text-justify p-3">
+                <h3>¡Conversemos!</h3>
+                <p>Completa el siguiente formulario para comunicarte con nosotros.</p>
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {alert('¡Tu mensaje ha sido enviado!'); window.location='contact.html';}"></iframe>
+                <form class="form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd_-4BncvCdhSxhrGP-Ut-oYM4yK5kvAObuI6tCuhva-bohig/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                    <br>
+                    <input class="form-fudeso form-control" name="entry.1497506499" type="text" minlength="3" placeholder="Ingresa tu nombre" required />
+                    <input class="form-fudeso form-control" name="entry.23735153" type="email" placeholder="Ingresa tu correo" required />
+                    <input class="form-fudeso form-control" name="entry.583450185" type="text" minlength="10" placeholder="Ingresa un título para tu mensaje" required />
+                    <textarea class="form-fudeso form-control" name="entry.311364041" required minlength="20" maxlength="500" placeholder="Ingresa tu mensaje" required ></textarea>
+                    <br>
+                    <input class="btn btn-secondary btn-fudeso" type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 p-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13317.461982691893!2d-70.651839!3d-33.439783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDI2JzIzLjIiUyA3MMKwMzknMDYuNiJX!5e0!3m2!1ses!2sus!4v1543528427617" width="100%" height="315px" frameborder="0" style="border-radius: 4px"></iframe>
             </div>
         </section>
         <!-- Footer -->
@@ -76,7 +96,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <h5>Fundación para el Desarrollo Social - FUDESO</h5>
                 <p>
-                    <i class="fas fa-1x fa-home"></i> Huérfanos 1052, Of. 702. Stgo. Chile.<br>
+                    <i class="fas fa-1x fa-home"></i>Huérfanos 1052, Of. 702. Stgo. Chile.<br>
                     <i class="fas fa-1x fa-phone" aria-hidden="true"></i> +569 5098 6670<br>
                     <i class="far fa-1x fa-envelope"></i> contacto@fudeso.cl
                 </p>
