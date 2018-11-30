@@ -1,4 +1,4 @@
-// Animation 
+// Animation effects
 $(document).ready(function() {
     // Check if element is scrolled into view
     function isScrolledIntoView(elem) {
