@@ -375,10 +375,10 @@ footer h5 {
 
 .pricing-divider {
   border-radius: 20px;
-  background: #cc3330;
-  padding: 1em 0 2em;
+  background: #1c4587;
+  padding: 1em 0;
   position: relative;
-  height: 14em;
+  height: 13em;
 }
 
 .pricing-divider-img {
@@ -407,12 +407,6 @@ footer h5 {
 .deco-layer--3 {
   fill: #FFFFFF;
   opacity: 0.7;
-}
-
-.btn-custom {
-  background: #C64545;
-  color: #fff;
-  border-radius: 20px;
 }
 
 .img-float {

@@ -55,8 +55,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Noticias</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link btn btn-secondary" href="../index.html#donate">¡Colabora!</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn btn-secondary dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ¡Colabora!
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="volunteer.html">Oportunidades de voluntariado</a>
+                                <a class="dropdown-item" href="donate.html">Donar</a>
+                                <a class="dropdown-item" href="support.html">Apoya un proyecto</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-secondary" href="contact.html">Contacto</a>
@@ -69,12 +76,12 @@
         <section class="row titles">
             <div class="col-12 text-center">
                 <p class="display-4">Contacto</p>
-                <p class="lead">Si quieres unirte a nuestra comunidad, hacer una donación o apoyar un proyecto. ¡Escríbenos! Nos pondremos en contacto lo antes posible.</p>
+                <p class="lead">Si quieres unirte a nuestra comunidad o hacer una donación en dinero. ¡Escríbenos!</p>
                 <hr>
             </div>
             <div class="col-12 col-md-6 col-lg-6 form-group text-justify p-3">
                 <h3>¡Conversemos!</h3>
-                <p>Completa el siguiente formulario para comunicarte con nosotros.</p>
+                <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
                 <script type="text/javascript">var submitted=false;</script>
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {alert('¡Tu mensaje ha sido enviado!'); window.location='contact.html';}"></iframe>
                 <form class="form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd_-4BncvCdhSxhrGP-Ut-oYM4yK5kvAObuI6tCuhva-bohig/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">

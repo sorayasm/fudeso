@@ -55,8 +55,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Noticias</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link btn btn-secondary" href="../index.html#donate">¡Colabora!</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn btn-secondary dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ¡Colabora!
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="volunteer.html">Oportunidades de voluntariado</a>
+                                <a class="dropdown-item" href="donate.html">Donar</a>
+                                <a class="dropdown-item" href="support.html">Apoya un proyecto</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-secondary" href="contact.html">Contacto</a>
@@ -67,10 +74,69 @@
         </nav>
         <!-- header -->
         <section class="row titles">
-            <div class="col-md-12">
-                <h2 class="display-4 text-center animated text-primary">Apoya un proyecto</h2>
-            </div>
-        </section>
+                <div class="col-12 text-center">
+                    <p class="display-4">Apoya un Proyecto</p>
+                    <p class="lead">Si buscas auspiciar o patrocinar uno de nuestros proyectos. ¡Escríbenos!</p>
+                    <hr>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 form-group text-justify p-3">
+                    <h3>¡Conversemos!</h3>
+                    <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {alert('¡Tu mensaje ha sido enviado!'); window.location='support.html';}"></iframe>
+                    <form class="form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd_-4BncvCdhSxhrGP-Ut-oYM4yK5kvAObuI6tCuhva-bohig/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <br>
+                        <input class="form-fudeso form-control" name="entry.1497506499" type="text" minlength="3" placeholder="Ingresa tu nombre" required />
+                        <input class="form-fudeso form-control" name="entry.23735153" type="email" placeholder="Ingresa tu correo" required />
+                        <input class="form-fudeso form-control" name="entry.583450185" type="text" minlength="10" placeholder="Ingresa un título para tu mensaje" required />
+                        <textarea class="form-fudeso form-control" name="entry.311364041" required minlength="20" maxlength="500" placeholder="Ingresa tu mensaje" required ></textarea>
+                        <br>
+                        <input class="btn btn-secondary btn-fudeso" type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 p-3 text-center">
+                    <h3>Conoce nuestro trabajo</h3>
+                    <br>
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="ijes.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoIJES.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="innmigrando.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoINNM.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="cultura.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoCS.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="revista-ods.html">
+                                <img class="img-logo project" src="../assets/img/logos/revistaODS.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="aurora-social.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoAUR.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="curso-ods.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoODS.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="comunicacion-desarrollo.html">
+                                <img class="img-logo project" src="../assets/img/logos/logoCOM.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
         <!-- Footer -->
         <footer class="row bg text-white">
             <div class="col-12 col-md-6 col-lg-6">
