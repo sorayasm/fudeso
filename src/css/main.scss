@@ -38,7 +38,7 @@ html, body {
 }
 
 .titles {
-  margin-top: 120px;
+  margin-top: 140px;
   height: 100%;
   min-height: 100vh;
   padding: 4em;
@@ -62,7 +62,7 @@ html, body {
 
 .logo-projects{
   width: 100px;
-  margin: 0 1.2em;
+  margin: 0 auto;
 }
 
 .thumbnail-fudeso {
@@ -83,6 +83,14 @@ ul li {
 }
 
 /* Navbar */
+.nav2{
+  height: 30px;
+}
+
+.nav1{
+  margin-top:20px;
+}
+
 .btn {
   margin: 0.2rem;
   color: #f8f9fa !important;
@@ -123,15 +131,9 @@ ul li {
   color: #6c757d !important;
 }
 
-#cubos img{
-  width: 100px;
-  margin: 5px auto;
-  border-radius: 4px;
-}
-
 /* Hero*/
 #hero {
-  margin-top: 120px;
+  margin-top: 145px;
 }
 
 .img-hero {
@@ -149,6 +151,12 @@ ul li {
   min-width: 200px;
   max-width: 500px;
   margin: 1em auto;
+  border-radius: 4px;
+}
+
+#cubos img{
+  width: 100px;
+  margin: 5px auto;
   border-radius: 4px;
 }
 
@@ -179,8 +187,8 @@ ul li {
 #donate:before { 
   display: block; 
   content: " "; 
-  margin-top: -130px; 
-  height: 130px; 
+  margin-top: -155px; 
+  height: 155px; 
   visibility: hidden; 
 }
 
@@ -243,8 +251,8 @@ footer h5 {
 .anchor:before { 
   display: block; 
   content: " "; 
-  margin-top: -130px; 
-  height: 130px; 
+  margin-top: -155px; 
+  height: 155px; 
   visibility: hidden; 
 }
 
